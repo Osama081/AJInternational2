@@ -1,0 +1,172 @@
+    
+body{
+    font-family: Calibri;
+}
+body a{
+    text-decoration: none;
+}
+a:link {
+    text-decoration: none;
+}
+
+
+
+.developerImage{
+   display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 500px;
+}
+#login{
+    margin-top: 0.5em;
+    margin-left:300px;
+}
+#mainHeader{
+    width: 100%;
+}
+#websiteName{
+    float: left;
+    width: 40%;
+    text-align: center;
+    color: darkcyan;
+    padding-top:-1.5em;
+    margin-top:-1.5em;
+}
+#designWebsiteName{
+    color:black;
+    font-family: "Arial Black";
+}
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%
+}
+
+.sticky + .content {
+    padding-top: 60px;
+}
+
+#navbar{
+    width: 100%;
+    overflow: hidden;
+    background-color: darkcyan;
+    margin: 0;
+    z-index: 1000;
+
+}
+#navbar a{
+    text-decoration: none;
+}
+
+#buyThefloorLogo{
+    width: 30%;
+    float: left;
+}
+#buyThefloorLogo h1{
+    font-family: "Courier New";
+    font-size: 50px;
+    text-align: center;
+    color: white;
+    font-weight: bolder;
+}
+#buyThefloorLogo h1:hover{
+    color: black;
+}
+/**/
+#buyThefloorNavigations{
+    float: right;
+    width: 64%;
+    padding-top:1em;
+    margin-right:3%;
+
+
+}
+
+#buyThefloorNavigations ul{
+    padding-top: 1.5em;
+    list-style-type: none;
+    align-content: center;
+    font-size: 15px;
+    padding-bottom: 1.5em;
+}
+#buyThefloorNavigations li{
+    display: inline;
+}
+.navBarlistposition{
+    font-size: 124%;
+    padding-left:3em;
+    padding-right:2em;
+}
+.navBarlistposition  a{
+    font-family: "Arial Black";
+    color: white;
+
+}
+.navBarlistposition a:hover{
+    text-decoration: black underline;
+    color:black;
+}
+
+
+/***Designing Categories and The Photo Slider Will be started from here**/
+#container{
+    height: available;
+}
+.categories,.photoslider{
+    margin-top: 0.7%;
+}
+.categories{
+    background-color: rgba(144,234,255,0);
+}
+.lists{
+    padding:4.4%;
+    font-size: 20px;
+    font-family: Arial;
+}
+.photoslider{
+    align-content:center;
+}
+
+/*****Slider and Categories Ending here **/
+.lists{
+    overflow: hidden;
+}
+.mostvisited{
+    background-color: #11B696;
+    font-family: 'Krona One', sans-serif;
+    font-size: 70px;
+    color: white;
+    margin-top: 3em;
+    margin-bottom: 0.5em;
+}
+.products-we-recommend{
+    display: block;
+    resize: none;
+}
+
+
+footer{
+    overflow: hidden;
+    width: 100%;
+    background: black;
+    text-align: center;
+    color:white;
+    font-family: Calibri;
+    font-size: 24px;
+}
+.footerd{
+    padding:50px;
+}
+footer h3{
+    font-size: 35px;
+    font-family: 'Krona One';
+}
+
+
+#homeText{
+    color: red;
+    font-size: 50px;
+}
+#yup{
+    font-family: 'Anton', sans-serif;
+}

@@ -1,0 +1,43 @@
+@import "https://fonts.googleapis.com/css?family=Caesar Dressing' rel='stylesheet";
+.flexingForm  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background:url("a.jpeg");
+    z-index: 0;
+    flex-wrap: wrap;
+}
+.flexedArea {
+    box-sizing: border-box;
+    background-color: white;
+    height:280px;
+    width: 350px;
+    mask-border-mode: luminance;
+    border-radius: 5px;
+}
+#forms{
+    font-family: 'Caesar Dressing';
+    margin-bottom: 5vh;
+    color: black;
+}
+input[type="email"]:focus{
+    background-color: #01ff9b;
+}
+.logining{
+    margin: 10px;
+}
+#subm{
+    margin-top: 30px;
+    background-color: black;
+}
+.dhoom{
+    background-color: black;
+    margin: 0;
+    padding: 0;
+    font-family: 'Caesar Dressing';
+}
+
+.areaMeasue{
+    width:300px;
+}
